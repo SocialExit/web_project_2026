@@ -25,11 +25,7 @@
 
     <!-- Main content area -->
     <main>
-       <picture>
-                    <source srcset="media/profile-large.jpg">
-                    <img src="media/profile-large.jpg"
-                         alt="Banner of College of Communication and Information">
-                </picture>
+    
         <article>
 
             <!-- Background information section -->
@@ -42,9 +38,19 @@
                     I am currently a senior in the College of Communication and 
                     Information at the University of Kentucky, where I am pursuing a degree in Communication.
                     I am currently doing an internship at a realty photography company, where I am learning about digital media production and marketing.
+                    One fun Fact about me is I just got married in July.
                 </p>
-             <img src="media/Design.jpg"
-         alt="Banner of Brownell Design Studio">
+<picture>
+  <source srcset="media/Design.jpg" media="(max-width: 480px)">
+  <source srcset="media/wedding.jpg" media="(min-width: 481px)">
+  <img
+    src="media/wedding.jpg"
+    alt="A Picture of my Wedding day">
+    <img
+    src="media/Design.jpg"
+    alt="A Image of the Design Company I am interning for Brownell Design Studios.">
+</picture>
+
             </section>
 
             <!-- List of skills and interests -->
