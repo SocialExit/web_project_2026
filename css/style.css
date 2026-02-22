@@ -1,0 +1,58 @@
+/* -----------------------------
+   Base Page Styling
+   Uses type selectors
+-------------------------------- */
+
+/* Apply base font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8; /* light neutral background */
+  color: #222222; /* dark readable text */
+  font-size: 1rem; /* relative unit */
+}
+
+/* Style main page heading */
+h1 {
+  color: #1b3a57; /* deep blue */
+}
+
+/* Style secondary headings */
+h2 {
+  color: #2a5d84;
+}
+
+/* -----------------------------
+   Navigation Styling
+   Demonstrates descendant selector
+-------------------------------- */
+
+/* Style links inside navigation only */
+nav a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+/* Change link color when hovered */
+nav a:hover {
+  color: #063970;
+}
+
+/* -----------------------------
+   Class Selector Example
+-------------------------------- */
+
+/* Apply this class to highlight important sections */
+.highlight {
+  background-color: #e6f2ff;
+}
+
+/* -----------------------------
+   ID Selector Example
+-------------------------------- */
+
+/* Unique styling for footer */
+#site-footer {
+  background-color: #d9e2ec;
+  color: #102a43;
+  font-size: 0.9rem; /* relative unit */
+}
