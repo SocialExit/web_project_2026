@@ -5,12 +5,7 @@
    Base Page Styling
    Uses type selectors
 -------------------------------- */
-main{
-    width: 80%;          /* Required for centering */
-    margin: auto;        /* Centers the container */
-    padding: 1rem;       /* Space inside the main box */
-    border: 2px solid #333;
-}
+
 /* Apply base font and background color */
 body {
   font-family: Arial, sans-serif;
@@ -64,3 +59,20 @@ nav a:hover {
   color: #102a43;
   font-size: 0.9rem; /* relative unit */
 }
+
+/* =================================================
+   BOX MODEL ASSIGNMENT ADDITIONS
+   ================================================= */
+
+
+/* -----------------------------
+   MAIN CONTAINER
+   Demonstrates width + margin auto
+-------------------------------- */
+
+
+main{
+    width: 80%;          /* Required for centering */
+    margin: auto;        /* Centers the container */
+    padding: 1rem;       /* Space inside the main box */
+    border: 2px solid #333;
