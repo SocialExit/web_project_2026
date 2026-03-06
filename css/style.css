@@ -71,13 +71,9 @@ nav a:hover {
 -------------------------------- */
 
 
-main{
-    width: 80%;          /* Required for centering */
-    margin: auto;        /* Centers the container */
-    padding: 1rem;       /* Space inside the main box */
-    border: 2px solid #333;
+main {
+  width: 80%;
+  margin: auto;              /* centers the container */
+  padding: 1rem;             /* space inside main */
+  border: 2px solid #333;
 }
-
-/* -----------------------------
-   SECTION BOX STYLING
--------------------------------- */
