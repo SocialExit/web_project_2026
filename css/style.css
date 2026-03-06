@@ -96,3 +96,22 @@ p {
   padding: 0.5rem;
   margin-bottom: 1rem;
 }
+
+/* -----------------------------
+   NESTED BOX MODEL DEMONSTRATION
+-------------------------------- */
+
+.parent-box {
+  border: 3px solid black;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.child-box {
+  width: 100%;
+  padding: 1rem;
+  border: 3px solid red;
+
+  /* fixes overflow problem */
+  box-sizing: border-box;
+}
