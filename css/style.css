@@ -77,3 +77,13 @@ main {
   padding: 1rem;             /* space inside main */
   border: 2px solid #333;
 }
+
+/* -----------------------------
+   SECTION BOX STYLING
+-------------------------------- */
+
+section {
+  margin: 2rem 0;            /* space outside section */
+  padding: 1rem;             /* space inside section */
+  border: 2px solid #666;
+}
