@@ -87,3 +87,12 @@ section {
   padding: 1rem;             /* space inside section */
   border: 2px solid #666;
 }
+
+/* -----------------------------
+   PARAGRAPH SPACING
+-------------------------------- */
+
+p {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
