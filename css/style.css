@@ -1,25 +1,44 @@
 /* -----------------------------
+   TYPOGRAPHY FOUNDATION
+-------------------------------- */
+
+/* Required base font declaration */
+html {
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* -----------------------------
    Base Page Styling
    Uses type selectors
 -------------------------------- */
 
 /* Apply base font and background color */
 body {
-  font-family: Arial, sans-serif;
   background-color: #f4f6f8; /* light neutral background */
   color: #222222; /* dark readable text */
-  font-size: 1rem; /* relative unit */
+  line-height: 1.5; /* improves readability */
 }
 
 /* Style main page heading */
 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #1b3a57; /* deep blue */
 }
 
 /* Style secondary headings */
 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: #2a5d84;
 }
+
 
 /* -----------------------------
    Navigation Styling
@@ -28,6 +47,8 @@ h2 {
 
 /* Style links inside navigation only */
 nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   color: #0a66c2;
   text-decoration: none;
 }
@@ -35,7 +56,21 @@ nav a {
 /* Change link color when hovered */
 nav a:hover {
   color: #063970;
+  text-decoration: underline;
 }
+
+
+/* -----------------------------
+   Paragraph Readability
+-------------------------------- */
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 
 /* -----------------------------
    Class Selector Example
@@ -46,6 +81,7 @@ nav a:hover {
   background-color: #e6f2ff;
 }
 
+
 /* -----------------------------
    ID Selector Example
 -------------------------------- */
@@ -55,7 +91,10 @@ nav a:hover {
   background-color: #d9e2ec;
   color: #102a43;
   font-size: 0.9rem; /* relative unit */
+  text-align: center;
+  padding: 1rem;
 }
+
 
 /* =================================================
    BOX MODEL ASSIGNMENT ADDITIONS
@@ -67,13 +106,14 @@ nav a:hover {
    Demonstrates width + margin auto
 -------------------------------- */
 
-
 main {
   width: 80%;
+  max-width: 65ch;
   margin: auto;              /* centers the container */
   padding: 1rem;             /* space inside main */
   border: 2px solid #333;
 }
+
 
 /* -----------------------------
    SECTION BOX STYLING
@@ -85,14 +125,6 @@ section {
   border: 2px solid #666;
 }
 
-/* -----------------------------
-   PARAGRAPH SPACING
--------------------------------- */
-
-p {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
 
 /* -----------------------------
    NESTED BOX MODEL DEMONSTRATION
