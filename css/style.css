@@ -52,12 +52,14 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: solid black;
   text-decoration: none;
   margin-right: 1rem;
   padding: 0.25rem 0.4rem;
   border-radius: 4px;
 }
+
+
 
 /* -----------------------------
    Main Container
