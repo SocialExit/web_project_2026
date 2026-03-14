@@ -11,135 +11,139 @@ html {
 
 /* -----------------------------
    Base Page Styling
-   Uses type selectors
 -------------------------------- */
 
-/* Apply base font and background color */
 body {
-  background-color: #f4f6f8; /* light neutral background */
-  color: #222222; /* dark readable text */
-  line-height: 1.5; /* improves readability */
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222222;
+  font-size: 1rem;
 }
 
-/* Style main page heading */
+/* -----------------------------
+   Header Layout
+-------------------------------- */
+
+header {
+  background-color: #1b3a57;
+  color: white;
+  padding: 1rem;
+  border-bottom: 4px solid #0a66c2;
+}
+
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: #1b3a57; /* deep blue */
+  margin: 0;
 }
 
-/* Style secondary headings */
+/* -----------------------------
+   Headings
+-------------------------------- */
+
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
   color: #2a5d84;
 }
 
-
 /* -----------------------------
-   Navigation Styling
-   Demonstrates descendant selector
+   Navigation
 -------------------------------- */
 
-/* Style links inside navigation only */
+nav {
+  margin-top: 0.5rem;
+}
+
 nav a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #0a66c2;
+  color: white;
   text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.25rem 0.4rem;
+  border-radius: 4px;
 }
 
-/* Change link color when hovered */
+/* Yellow hover effect */
 nav a:hover {
-  color: #063970;
-  text-decoration: underline;
+  background-color: yellow;
+  color: black;
 }
 
-
 /* -----------------------------
-   Paragraph Readability
--------------------------------- */
-
-p {
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-
-/* -----------------------------
-   Class Selector Example
--------------------------------- */
-
-/* Apply this class to highlight important sections */
-.highlight {
-  background-color: #e6f2ff;
-}
-
-
-/* -----------------------------
-   ID Selector Example
--------------------------------- */
-
-/* Unique styling for footer */
-#site-footer {
-  background-color: #d9e2ec;
-  color: #102a43;
-  font-size: 0.9rem; /* relative unit */
-  text-align: center;
-  padding: 1rem;
-}
-
-
-/* =================================================
-   BOX MODEL ASSIGNMENT ADDITIONS
-   ================================================= */
-
-
-/* -----------------------------
-   MAIN CONTAINER
-   Demonstrates width + margin auto
+   Main Container
 -------------------------------- */
 
 main {
   width: 80%;
-  margin: auto;              /* centers the container */
-  padding: 1rem;             /* space inside main */
-  border: 2px solid #333;
+  margin: auto;
+  padding: 1rem;
 }
 
-
 /* -----------------------------
-   SECTION BOX STYLING
+   Sections (visual structure)
 -------------------------------- */
 
 section {
-  margin: 2rem 0;            /* space outside section */
-  padding: 1rem;             /* space inside section */
+  margin: 2rem 0;
+  padding: 1.2rem;
   border: 2px solid #666;
+  background-color: white;
+  border-radius: 6px;
 }
 
+/* -----------------------------
+   Paragraph spacing
+-------------------------------- */
+
+p {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
 
 /* -----------------------------
-   NESTED BOX MODEL DEMONSTRATION
+   List Styling
+-------------------------------- */
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.3rem;
+  border-radius: 4px;
+}
+
+/* Yellow hover effect for lists */
+li:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* -----------------------------
+   Box Model Demonstration
 -------------------------------- */
 
 .parent-box {
   border: 3px solid black;
   padding: 1rem;
   margin-top: 2rem;
+  background-color: #eef2f6;
 }
 
 .child-box {
   width: 100%;
   padding: 1rem;
   border: 3px solid red;
-
-  /* fixes overflow problem */
+  background-color: white;
   box-sizing: border-box;
+}
+
+/* -----------------------------
+   Footer
+-------------------------------- */
+
+#site-footer {
+  background-color: #d9e2ec;
+  color: #102a43;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #999;
 }
