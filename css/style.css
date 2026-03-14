@@ -59,12 +59,6 @@ nav a {
   border-radius: 4px;
 }
 
-/* Yellow hover effect */
-nav a:hover {
-  background-color: yellow;
-  color: black;
-}
-
 /* -----------------------------
    Main Container
 -------------------------------- */
