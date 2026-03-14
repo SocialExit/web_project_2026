@@ -1,15 +1,4 @@
 /* -----------------------------
-   TYPOGRAPHY FOUNDATION
--------------------------------- */
-
-/* Required base font declaration */
-html {
-  font-size: 100%;
-  font-family: Georgia, "Times New Roman", serif;
-}
-
-
-/* -----------------------------
    Base Page Styling
 -------------------------------- */
 
@@ -52,14 +41,19 @@ nav {
 }
 
 nav a {
-  color: solid black;
+  color: black; /* Default link color changed to black */
   text-decoration: none;
   margin-right: 1rem;
   padding: 0.25rem 0.4rem;
   border-radius: 4px;
+  transition: all 0.3s ease; /* Smooth hover effect */
 }
 
-
+/* Yellow hover effect */
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
 
 /* -----------------------------
    Main Container
@@ -104,6 +98,7 @@ li {
   margin-bottom: 0.5rem;
   padding: 0.2rem 0.3rem;
   border-radius: 4px;
+  transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 /* Yellow hover effect for lists */
